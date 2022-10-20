@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from '../../Cta'
-import ME from '../../Me.png.jpg'
+// import ME from './me.jpeg'
 import Headersocial from './headersocial'
 const Header = () => {
   return (
@@ -12,9 +12,9 @@ const Header = () => {
       <h5 className='text-light'>ServiceNow Developer/React Developer</h5>
       <CTA/>
       <Headersocial/>
-      <div className="me">
+      {/* <div className="me">
         <img src={ME} alt="me" />
-      </div>
+      </div> */}
     </header>
   )
 }
